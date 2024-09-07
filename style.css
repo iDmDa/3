@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.commentBox {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.commentBox h2 {
+  margin-bottom: 20px;
+}
+.commentBox form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.commentBox input {
+  width: 500px;
+}
+.commentBox textarea {
+  width: 500px;
+  height: 150px;
+}
+.commentBox button {
+  padding: 5px 10px;
+}
+
+.showBox {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.showBox h3 {
+  margin-bottom: 10px;
+}
+.showBox span {
+  color: darkgrey;
+}
+.showBox ul {
+  margin-bottom: 40px;
+}
+.showBox li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.showBox li p {
+  margin: 10px;
+  white-space: pre-wrap;
+}
+.showBox li > :nth-child(2) {
+  display: none;
+}
+.showBox li:hover {
+  margin-bottom: 4px;
+}
+.showBox li:hover :nth-child(2) {
+  display: inline-block;
+}
+.showBox li:hover p {
+  margin-top: 9px;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
